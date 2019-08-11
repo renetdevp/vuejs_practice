@@ -1,0 +1,44 @@
+* {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+#todo-app {
+    display: inline-block;
+    background-color: #87c0e9;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+#todo-head {
+    text-align: center;
+    margin: 0 0 .75rem 0;
+}
+
+#todo-head > p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: .5rem 1rem .5rem 1rem;
+    width: 40rem;
+}
+
+li:nth-child(odd) {
+    background-color: #87eee9;
+}
+
+li:nth-child(even) {
+    background-color: #87d7e9;
+}
+
+li > button {
+    float: right;
+    margin: 0 0 0 1rem;
+}
